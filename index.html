@@ -7,41 +7,53 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+  <main>
+    <div class="results">
+      <p class="your_results">Your Result</p>
+      <div class="cercle">
+        <p class="res">76</p>
+        <p class="sur100">of 100</p>
+      </div>
+      <p class="remarque">Great</p>
+      <p class="comment">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="summary">
+      <p>Summary</p>
+      <div class="reaction">
+        <img src="./images/icon-reaction.svg" alt="reaction">
+        <span class="name">Reaction</span>
+        <span class="summary-res">80</span>
+        <span class="summary-sur100"> / 100</span>
+      </div>
+      <div class="memory">
+        <img src="./images/icon-memory.svg" alt="memory">
+        <span class="name">Memory</span>
+        <span class="summary-res">92</span>
+        <span class="summary-sur100"> / 100</span>
+      </div>
+      <div class="verbal">
+        <img src="./images/icon-verbal.svg" alt="verbal">
+        <span class="name">Verbal</span>
+        <span class="summary-res">61</span>
+        <span class="summary-sur100"> / 100</span>
+      </div>
+      <div class="visual">
+        <img src="./images/icon-visual.svg" alt="visual">
+        <span class="name">Visual</span>
+        <span class="summary-res">72</span>
+        <span class="summary-sur100"> / 100</span>
+      </div>
+      <div class="btn">
+        <p>Continue</p>
+      </div>
+    </div>
+  </main>
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
